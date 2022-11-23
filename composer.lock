@@ -4,8 +4,68 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "45b19fc9f3ef83a379094a0b32a5c11d",
+    "content-hash": "12e8b94cd62e194874e039924509e8a2",
     "packages": [
+        {
+            "name": "aranyasen/laravel-env-sync",
+            "version": "v1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/senaranya/Laravel-Env-Sync.git",
+                "reference": "8b6b50aaac19f8bec02e55c2197c1afedb5f6d92"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/senaranya/Laravel-Env-Sync/zipball/8b6b50aaac19f8bec02e55c2197c1afedb5f6d92",
+                "reference": "8b6b50aaac19f8bec02e55c2197c1afedb5f6d92",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/console": "^8|^9",
+                "illuminate/events": "^8|^9",
+                "illuminate/support": "^8|^9",
+                "php": ">=7.4",
+                "vlucas/phpdotenv": "^5"
+            },
+            "require-dev": {
+                "mikey179/vfsstream": "^1.6",
+                "mockery/mockery": "^1.5",
+                "orchestra/testbench": "^6|^7",
+                "phpunit/phpunit": "^9.5"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Aranyasen\\LaravelEnvSync\\EnvSyncServiceProvider"
+                    ]
+                },
+                "branch-alias": {
+                    "dev-master": "0.1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Aranyasen\\LaravelEnvSync\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Aranya Sen",
+                    "email": "sen.aranya@gmail.com"
+                }
+            ],
+            "description": "A package that makes sure that your .env file is in sync with your .env.example",
+            "support": {
+                "issues": "https://github.com/senaranya/Laravel-Env-Sync/issues",
+                "source": "https://github.com/senaranya/Laravel-Env-Sync/tree/v1.0.2"
+            },
+            "time": "2022-03-13T02:45:09+00:00"
+        },
         {
             "name": "arrilot/laravel-widgets",
             "version": "3.13.1",
